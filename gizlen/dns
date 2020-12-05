@@ -1,0 +1,14 @@
+* Uçbirimi açıyoruz.
+* sudo su yazıyoruz.
+* nano /etc/resolv.conf yazıyoruz (ben editör için nano seçtim)
+* daha sonra aşağıdaki yazıyı kopyalayıp yapıştırıyorsunuz (open dns seçtim ben siz değiştirebilirsiniz)
+nameserver 208.67.222.222
+nameserver 208.67.220.220
+* ctrl + o yapıp enterlayıp kaydediyoruz ve terminale dönüyoruz.
+* chattr +i /etc/resolv.conf yazıp tabiri caizse kilitliyoruz.
+----------------
+chattr -i /etc/resolv.conf Diyip Kilidi Açıyoruz
+----------------
+Cloudflare, DNS Ayarları: (En Hızlı)
+1.0.0.1
+1.1.1.1

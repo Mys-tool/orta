@@ -1,0 +1,2 @@
+macchanger -r eth0 Değiştirir.
+macchanger -p eth0 Eski Haline Çevirir.
